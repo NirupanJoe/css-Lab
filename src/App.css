@@ -9,36 +9,36 @@
 
 }
 .box {
-	border: 1px solid lightseagreen;
-	/* border-radius: 20px; */
 	position: absolute;
 	width: 100px;
 	height: 100px;
+	box-shadow: 155px 36px 3px 0px rgb(0 151 255 / 25%);
+	transform: skew(-24deg, 13deg);
 }
 .b1 {
-	background: lightblue;
+	background: #f0652b;
 	top: 20px;
-  left: 40px;
+	left: 92px;
 }
 .b2 {
-	background: lightcoral;
-	top: 20px;
-	left:150px;
+	background: #8cbd00;
+	top: 46px;
+	left: 201px;
 }
 .b3 {
-	background: lightgreen;
+	background: #00aee9;
 	top: 130px;
-	left: 40px;
+	left: 45px;
 }
 .b4 {
-	background: lightsalmon;
-	top: 130px;
-	left: 150px;
+	background: #f7bd00;
+	top: 156px;
+	left: 154px;
 }
 
 .App {
 	text-align: center;
-	background:rgb(199, 226, 181);
+	background:rgb(141, 248, 69);
 }
 
 .App-logo {
