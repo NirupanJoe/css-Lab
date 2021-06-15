@@ -35,14 +35,15 @@
 	top: 156px;
 	left: 154px;
 }
-
 .App {
 	text-align: center;
-	background:rgb(141, 248, 69);
+	width: 100vw;
+	height: 100vh;
 }
 
 .App-logo {
-	height: 40vmin;
+	height: 73vh;
+    width: 86vh;
 	pointer-events: none;
 }
 
