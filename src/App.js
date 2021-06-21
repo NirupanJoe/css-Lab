@@ -1,10 +1,10 @@
 import { React } from 'react';
 import './App.css';
-import Logo from './components/logo';
+import Pendulum from './components/pendulum';
 
 const App = () =>
 	<div className="App">
-		<div>{Logo()}</div>
+		<div>{Pendulum()}</div>
 	</div>;
 
 export default App;

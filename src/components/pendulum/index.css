@@ -1,0 +1,29 @@
+.pendulum {
+	position: absolute;
+	background: lightcyan;
+	width: 100px;
+	height: 200px;
+	top: 20%;
+	left: 40%;
+}
+.container {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+.line {
+	position: absolute;
+	background-color: red;
+	width: 20%;
+	height: 75%;
+	left: 40%;
+}
+.circle {
+	width: 80%;
+	height: 40%;
+	background: blue;
+	position: absolute;
+	left: 10%;
+	border-radius: 50%;
+	bottom: 0%;
+}
