@@ -8,61 +8,10 @@
 	background:rgb(125, 165, 189);
 
 }
-.box {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	box-shadow: 155px 36px 3px 0px rgb(0 151 255 / 25%);
-}
-.b1 {
-	background: #f0652b;
-	bottom: 51%;
-	right: 58%;
-}
-.b2 {
-	background: #8cbd00;
-	bottom: 51%;
-	left: 53%;
-}
-.b3 {
-	background: #00aee9;
-	top: 60%;
-	right:58%;
-}
-.b4 {
-	background: #f7bd00;
-	top: 60%;
-	left: 53%;
-}
 .App {
 	text-align: center;
 	width: 100vw;
 	height: 100vh;
-}
-.logo {
-	width: 100px;
-	height: 100px;
-	transform: rotate(25deg);
-	position: absolute;
-	left: 50%;
-	top: 46%;
-}
-.container {
-	height: 100%;
-	width: 100%;
-	position: absolute;
-
-}
-
-@media (prefers-reduced-motion: no-preference) {
-	.logo {
-		animation:
-			logo-movement 5s,
-			container-spin infinite 20s linear;
-		}
-		.container {
-			animation: box-size infinite 6s ease-in-out;
-	}
 }
 
 .App-header {
@@ -78,38 +27,4 @@
 
 .App-link {
 	color: #61dafb;
-}
-
-@keyframes container-spin {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg);
-	}
-}
-
-@keyframes box-size {
-	0% {
-		width: 10%;
-		height: 10%;
-	}
-	50% {
-		width: 100%;
-		height: 100%;
-	}
-	100% {
-		width: 10%;
-		height: 10%;
-	}
-}
-@keyframes logo-movement {
-	from{
-		left: 5%;
-		top: 5%
-	}
-	to{
-		left: 50%;
-		top: 47%;
-	}
 }
