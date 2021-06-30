@@ -1,10 +1,10 @@
 import { React } from 'react';
 import './App.css';
-import Pendulum from './components/pendulum';
+import TreasuryBox from './treasuryBox';
 
 const App = () =>
 	<div className="App">
-		<div>{Pendulum()}</div>
+		<div>{TreasuryBox()}</div>
 	</div>;
 
 export default App;
