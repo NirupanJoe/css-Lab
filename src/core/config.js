@@ -5,6 +5,7 @@ const config = {
 	countStart: 0,
 	increment: 1,
 	number: Math.floor((Math.random() * ten) + one),
+	colorSelect: ['random', 'zebra'],
 };
 
 export default config;
