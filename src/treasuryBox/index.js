@@ -1,16 +1,16 @@
 import { React } from 'react';
 import config from '../core/config';
 import './index.css';
-import { rndBetween } from '@laufire/utils/random';
 
-const rndRgb = () => `${rndBetween(0, 255)}`+ `, ${rndBetween(0, 255)}`+
-	`, ${rndBetween(0, 255)}` + `, ${Math.random()*1}`;
+const hexColor = () => Math.random().toString(16).slice(2, 10);
 
-const background = () => `rgba(${rndRgb()})`;
+const background = () => ({
+	background: `#${ hexColor()}`,
+});
 
 const Box = (number) => number > 1
 		? <div
-				style={ {background: background() }}
+				style={ background() }
 				className="text"
 			>
 			{Box(number-1)}
