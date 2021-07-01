@@ -2,15 +2,22 @@
 	position: absolute;
 	width: 500px;
 	height: 500px;
-	background: brown;
+	background: rgba(165, 42, 42, 0.5);
 	left: 27%;
 	top: 145px;
 }
 .text {
 	position: absolute;
-	width: 90%;
-	height: 90%;
-	left: 5%;
-	top: 5%;
-	background: rgb(241, 145, 27);
+	width: 75%;
+	height: 75%;
+	left: 12%;
+	top: 12%;
+}
+#number {
+	 width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
 }
