@@ -1,10 +1,10 @@
 import { React } from 'react';
 import './App.css';
-import TreasuryBox from './treasuryBox';
+import Logo from './components/logo';
 
 const App = () =>
 	<div className="App">
-		<div>{TreasuryBox()}</div>
+		<div>{Logo()}</div>
 	</div>;
 
 export default App;

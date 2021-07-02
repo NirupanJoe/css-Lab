@@ -1,3 +1,6 @@
+body {
+	overflow: hidden;
+}
 .box {
 	position: absolute;
 	width: 100%;
@@ -40,43 +43,84 @@
 @media (prefers-reduced-motion: no-preference) {
 	.logo {
 		animation:
-			logo-movement 5s,
-			container-spin infinite 20s linear;
-		}
-		.container {
-			animation: box-size infinite 6s ease-in-out;
+			container-spin infinite 20s 3s linear;
+	}
+	.container {
+			animation: box-size infinite 6s 3s ease-in-out;
+	}
+	.b1 {
+		animation: b1 3s linear;
+	}
+	.b2 {
+		animation: b2 3s linear;
+	}
+	.b3 {
+		animation: b3 3s linear;
+	}
+	.b4 {
+		animation: b4 3s linear;
 	}
 }
 @keyframes container-spin {
 	from {
-		transform: rotate(0deg);
+		transform: rotate(25deg);
 	}
 	to {
-		transform: rotate(360deg);
+		transform: rotate(385deg);
 	}
 }
 
 @keyframes box-size {
 	0% {
-		width: 10%;
-		height: 10%;
-	}
-	50% {
 		width: 100%;
 		height: 100%;
 	}
-	100% {
+	50% {
 		width: 10%;
 		height: 10%;
 	}
-}
-@keyframes logo-movement {
-	from{
-		left: 5%;
-		top: 5%
+	100% {
+		width: 100%;
+		height: 100%;
 	}
-	to{
-		left: 50%;
-		top: 47%;
+}
+@keyframes b1 {
+	0%{
+		bottom: 315%;
+		right: 480%;
+	}
+	100%{
+		bottom: 51%;
+		right: 58%;
+	}
+}
+@keyframes b2 {
+	0%{
+		bottom: 315%;
+		left: 375%;
+	}
+	100%{
+		bottom: 51%;
+		left: 53%;
+	}
+}
+@keyframes b3 {
+	0%{
+		top: 245%;
+		right: 480%;
+	}
+	100%{
+		top: 60%;
+		right:58%;
+	}
+}
+@keyframes b4 {
+	0%{
+		top: 245%;
+		left: 375%;
+	}
+	100%{
+		top: 60%;
+		left: 53%;
 	}
 }
