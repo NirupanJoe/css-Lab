@@ -1,10 +1,10 @@
 import { React } from 'react';
 import './App.css';
-import Logo from './components/logo';
+import FormControls from './components/formControls';
 
 const App = () =>
 	<div className="App">
-		<div>{Logo()}</div>
+		<div>{FormControls()}</div>
 	</div>;
 
 export default App;

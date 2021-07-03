@@ -1,0 +1,33 @@
+label {
+	color: white;
+}
+div {
+	font-size: x-large;
+}
+input[type="text"] {
+	background: wheat;
+	border: 5px groove white;
+	margin: 5px;
+}
+input[type="text"]:focus-visible {
+	outline: 1px solid blueviolet;
+}
+input[type="file"] {
+	background: darkorange;
+	margin: 5px;
+}
+input[type="date"] {
+	background: rgb(185, 226, 185);
+	margin: 5px;
+	border-radius: 25px;
+}
+input[type="submit"] {
+	background: cornflowerblue;
+	border: 1px solid white;
+	border-radius: 50%;
+	margin: 5px;
+	padding: 15px 40px;
+}
+input[type="submit"]:hover {
+	background: linear-gradient(145deg, red 10%, blue 90%);
+}
