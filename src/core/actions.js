@@ -5,10 +5,14 @@ const increaseCount = ({ state, data }) => ({
 const colorSelect = ({ data }) => ({
 	colorSelect: data,
 });
+const setFlexColor = ({ data }) => ({
+	flexColor: data,
+});
 
 const actions = {
 	increaseCount,
 	colorSelect,
+	setFlexColor,
 };
 
 export default actions;
