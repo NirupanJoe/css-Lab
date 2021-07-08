@@ -1,0 +1,13 @@
+#btn {
+	margin: 10px;
+	padding: 30px 40px;
+	color: wheat;
+	background: darkorange;
+	transition: background-color 1s ease-in-out;
+	border-radius: 20%;
+}
+
+#btn:hover {
+	background-color: green;
+
+}
