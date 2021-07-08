@@ -19,3 +19,9 @@
 .blue {
 	background: lightskyblue;
 }
+
+.colum-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
