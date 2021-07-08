@@ -1,22 +1,21 @@
 .container {
 	display: flex;
 	justify-content: space-between;
+	align-items: flex-start;
 }
 .color {
 	width: 250px;
 	min-height: 250px;
 	margin: 10px;
 	border: 1px solid;
+	transition: all 1000ms ease-in-out;
 }
 .red {
 	background: red;
-	transition: flex-grow 1000ms ease-in-out;
 }
 .green {
 	background: green;
-	transition: flex-grow 1000ms ease-in-out;
 }
 .blue {
 	background: lightskyblue;
-	transition: flex-grow 1000ms ease-in-out;
 }

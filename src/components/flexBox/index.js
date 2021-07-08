@@ -5,8 +5,8 @@ import FlexSelect from './selectInput';
 
 const Flex = () =>
 	<div>
-		{FlexBox()}
 		{FlexSelect()}
+		{FlexBox()}
 	</div>;
 
 export default Flex;
