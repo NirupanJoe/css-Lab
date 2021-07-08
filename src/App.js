@@ -1,10 +1,10 @@
 import { React } from 'react';
 import './App.css';
-import Transition from './components/transition';
+import Flex from './components/flexBox';
 
 const App = () =>
 	<div className="App">
-		{Transition()}
+		<div>{Flex()}</div>
 	</div>;
 
 export default App;
