@@ -5,12 +5,12 @@
 	background: darkorange;
 	width: 150px;
 	height: 100px;
-	transition: background-color 1s ease-in-out, width 1s ease-out, height 1s ease-in, transform 1s;
+	transition: all 2s ease-in-out;
 	border-radius: 20%;
 }
 
 #btn:hover {
-	background-color: green;
+	background: green;
 	width: 200px;
 	height: 150px;
 	transform: rotate(360deg);
