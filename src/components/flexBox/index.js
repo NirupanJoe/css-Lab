@@ -6,9 +6,8 @@ import FlexSelect from './selectInput';
 
 const Flex = () =>
 	<div>
-		{FlexSelect()}
-		{RowFlexBox()}
-		{ColumFlexBox()}
+		<div>{FlexSelect()}</div>
+		<div className="flex">{RowFlexBox()}{ColumFlexBox()}</div>
 	</div>;
 
 export default Flex;
