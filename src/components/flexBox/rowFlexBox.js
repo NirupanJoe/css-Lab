@@ -12,11 +12,11 @@ const RedStyle = () => ({
 	flexGrow: context.state.flexColor === 'red' ? 1 : 0,
 });
 
-const FlexBox = () =>
+const RowFlexBox = () =>
 	<div className="container">
 		<div className="color red" style={ RedStyle() }/>
 		<div className="color green" style={ GreenStyle() }/>
 		<div className="color blue" style={ BlueStyle() }/>
 	</div>;
 
-export default FlexBox;
+export default RowFlexBox;

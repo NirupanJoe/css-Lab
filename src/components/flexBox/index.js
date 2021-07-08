@@ -1,12 +1,12 @@
 import { React } from 'react';
 import './index.css'
-import FlexBox from './flexBox';
+import RowFlexBox from './rowFlexBox';
 import FlexSelect from './selectInput';
 
 const Flex = () =>
 	<div>
 		{FlexSelect()}
-		{FlexBox()}
+		{RowFlexBox()}
 	</div>;
 
 export default Flex;
