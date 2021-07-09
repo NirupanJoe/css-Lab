@@ -2,14 +2,14 @@ import { React } from 'react';
 import context from '../../core/context';
 
 const BlueStyle = () => ({
-	flexBasis: context.state.flexColor === 'blue' ? '350px' : 0,
+	flexGrow: context.state.flexColor === 'blue' ? 1 : 0,
 });
 
 const GreenStyle = () => ({
-	flexBasis: context.state.flexColor === 'green' ? '350px' : 0,
+	flexGrow: context.state.flexColor === 'green' ? 1 : 0,
 });
 const RedStyle = () => ({
-	flexBasis: context.state.flexColor === 'red' ? '350px' : 0,
+	flexGrow: context.state.flexColor === 'red' ? 1 : 0,
 });
 
 const ColumFlexBox = () =>
